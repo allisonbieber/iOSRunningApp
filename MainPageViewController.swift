@@ -8,9 +8,6 @@
 import UIKit
 import FirebaseAuth
 
-/**
- This class is the View Controller class for the 
- **/
 class MainPageViewController: UIViewController {
 
     @IBOutlet weak var accountLabel: UILabel!
