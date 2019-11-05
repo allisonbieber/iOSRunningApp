@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="524-jw-PWd">
-    <device id="retina6_5" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="524-jw-PWd">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -15,14 +13,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="MainPageViewController" customModule="FirebaseProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="175" translatesAutoresizingMaskIntoConstraints="NO" id="5FY-Qx-85E">
-                                <rect key="frame" x="32" y="110" width="350" height="694"/>
+                                <rect key="frame" x="32" y="66" width="350" height="684"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ASZ-ti-pJ7">
-                                        <rect key="frame" x="0.0" y="0.0" width="350" height="84.666666666666671"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="350" height="75"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Run DB App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lJJ-de-gce">
                                                 <rect key="frame" x="0.0" y="0.0" width="350" height="34.666666666666664"/>
@@ -31,16 +29,16 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pNU-Ek-S6W">
-                                                <rect key="frame" x="0.0" y="34.666666666666657" width="350" height="50"/>
+                                                <rect key="frame" x="0.0" y="34.666666666666671" width="350" height="40.333333333333329"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Account:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vf9-PQ-qQG">
-                                                        <rect key="frame" x="0.0" y="0.0" width="68" height="50"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="68" height="40.333333333333336"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c3B-q1-YAM">
-                                                        <rect key="frame" x="68" y="0.0" width="282" height="50"/>
+                                                        <rect key="frame" x="68" y="0.0" width="282" height="40.333333333333336"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -50,10 +48,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="nWG-rw-Umg">
-                                        <rect key="frame" x="0.0" y="259.66666666666669" width="350" height="229.33333333333331"/>
+                                        <rect key="frame" x="0.0" y="250" width="350" height="229"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="paC-EO-uCK">
-                                                <rect key="frame" x="0.0" y="0.0" width="350" height="46.333333333333336"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="350" height="46"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                                 <state key="normal" title="Add To Database">
@@ -65,7 +63,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cjd-TI-0gk">
-                                                <rect key="frame" x="0.0" y="61.333333333333314" width="350" height="46"/>
+                                                <rect key="frame" x="0.0" y="61" width="350" height="46"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                                 <state key="normal" title="Find Data">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -75,7 +73,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nxy-8a-xvK">
-                                                <rect key="frame" x="0.0" y="122.33333333333331" width="350" height="46"/>
+                                                <rect key="frame" x="0.0" y="122" width="350" height="46"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                                 <state key="normal" title="Filter By Month">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -86,7 +84,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oez-uv-sie">
-                                                <rect key="frame" x="0.0" y="183.33333333333331" width="350" height="46"/>
+                                                <rect key="frame" x="0.0" y="183" width="350" height="46"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                                 <state key="normal" title="Delete Data">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -98,7 +96,7 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l5j-fj-VOx">
-                                        <rect key="frame" x="0.0" y="664" width="350" height="30"/>
+                                        <rect key="frame" x="0.0" y="654" width="350" height="30"/>
                                         <state key="normal" title="Sign Out..."/>
                                         <connections>
                                             <action selector="signOut:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2oK-zz-5Kt"/>
@@ -132,12 +130,11 @@
             <objects>
                 <viewController id="524-jw-PWd" customClass="ViewController" customModule="FirebaseProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YPt-ok-bqI">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="200" translatesAutoresizingMaskIntoConstraints="NO" id="eF8-su-nre">
-                                <rect key="frame" x="27" y="116.99999999999994" width="360" height="560.66666666666663"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="27" y="116.99999999999994" width="360" height="568.66666666666663"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Run DB App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G0n-dL-2tb">
                                         <rect key="frame" x="0.0" y="0.0" width="360" height="34.666666666666664"/>
@@ -146,10 +143,10 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Qmi-CL-iG6">
-                                        <rect key="frame" x="0.0" y="234.66666666666663" width="360" height="80"/>
+                                        <rect key="frame" x="0.0" y="234.66666666666663" width="360" height="88"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="6DN-iS-jas">
-                                                <rect key="frame" x="0.0" y="0.0" width="100" height="80"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="100" height="88"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oaR-U8-geO">
                                                         <rect key="frame" x="0.0" y="0.0" width="100" height="30"/>
@@ -161,7 +158,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RyY-PN-7C8">
-                                                        <rect key="frame" x="0.0" y="50.000000000000028" width="100" height="30"/>
+                                                        <rect key="frame" x="0.0" y="50.000000000000028" width="100" height="38"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -172,17 +169,15 @@
                                                 </constraints>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="lNk-bg-m8O">
-                                                <rect key="frame" x="110" y="0.0" width="250" height="80"/>
+                                                <rect key="frame" x="110" y="0.0" width="250" height="88"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OUk-a6-cZq">
-                                                        <rect key="frame" x="0.0" y="0.0" width="250" height="30"/>
-                                                        <nil key="textColor"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="250" height="34"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2iy-7K-Iyi">
-                                                        <rect key="frame" x="0.0" y="50.000000000000028" width="250" height="30"/>
-                                                        <nil key="textColor"/>
+                                                        <rect key="frame" x="0.0" y="54.000000000000028" width="250" height="34"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                                     </textField>
@@ -194,7 +189,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="0TP-nS-1Kg">
-                                        <rect key="frame" x="0.0" y="514.66666666666663" width="360" height="46"/>
+                                        <rect key="frame" x="0.0" y="522.66666666666663" width="360" height="46"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S13-97-gFk">
                                                 <rect key="frame" x="0.0" y="0.0" width="150" height="46"/>
@@ -241,11 +236,11 @@
             <objects>
                 <viewController id="qcg-oB-xyV" customClass="AddDataViewController" customModule="FirebaseProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jqv-vh-tf6">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="70" translatesAutoresizingMaskIntoConstraints="NO" id="iuD-d4-ByI" userLabel="Page Stack View">
-                                <rect key="frame" x="47" y="78" width="320" height="740"/>
+                                <rect key="frame" x="47" y="51" width="320" height="740"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Run DB App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AwI-wZ-N9h">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="36"/>
@@ -253,11 +248,8 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <datePicker contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="TGq-2s-Cg4">
+                                    <datePicker contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" translatesAutoresizingMaskIntoConstraints="NO" id="TGq-2s-Cg4">
                                         <rect key="frame" x="0.0" y="106" width="320" height="231"/>
-                                        <date key="date" timeIntervalSinceReferenceDate="583295757.13256097">
-                                            <!--2019-06-27 02:35:57 +0000-->
-                                        </date>
                                     </datePicker>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="8ET-fp-Czj" userLabel="User Input Stack View">
                                         <rect key="frame" x="0.0" y="407" width="320" height="115"/>
@@ -298,24 +290,21 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="8rZ-0C-QvP" userLabel="Fields Stack View">
                                                 <rect key="frame" x="160" y="0.0" width="160" height="115"/>
                                                 <subviews>
-                                                    <textField opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X59-Jb-aBZ">
-                                                        <rect key="frame" x="0.0" y="0.0" width="160" height="35"/>
+                                                    <textField opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X59-Jb-aBZ">
+                                                        <rect key="frame" x="0.0" y="0.0" width="160" height="34"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="160" id="sNc-h7-kI7"/>
                                                         </constraints>
-                                                        <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
-                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jkj-fE-NUI">
-                                                        <rect key="frame" x="0.0" y="45" width="160" height="30"/>
-                                                        <nil key="textColor"/>
+                                                    <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jkj-fE-NUI">
+                                                        <rect key="frame" x="0.0" y="44" width="160" height="27"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
-                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oCv-mB-RWY">
-                                                        <rect key="frame" x="0.0" y="85" width="160" height="30"/>
-                                                        <nil key="textColor"/>
+                                                    <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oCv-mB-RWY">
+                                                        <rect key="frame" x="0.0" y="81" width="160" height="34"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
@@ -369,12 +358,11 @@
             <objects>
                 <viewController id="ypZ-ms-SAf" customClass="ReadDataViewController" customModule="FirebaseProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="I0l-sn-4GJ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="Uax-62-vfU">
                                 <rect key="frame" x="48" y="74" width="320" height="758"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Run DB App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xgR-E4-19R">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="36"/>
@@ -388,11 +376,8 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="XCA-hO-hpE">
+                                    <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" translatesAutoresizingMaskIntoConstraints="NO" id="XCA-hO-hpE">
                                         <rect key="frame" x="0.0" y="140" width="320" height="216"/>
-                                        <date key="date" timeIntervalSinceReferenceDate="583303161.11646295">
-                                            <!--2019-06-27 04:39:21 +0000-->
-                                        </date>
                                     </datePicker>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yvL-TO-7cu">
                                         <rect key="frame" x="0.0" y="396" width="320" height="41"/>
@@ -457,7 +442,6 @@
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="25" id="Rub-gp-jss"/>
                                                         </constraints>
-                                                        <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
@@ -466,7 +450,6 @@
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="25" id="qbG-Eo-l7V"/>
                                                         </constraints>
-                                                        <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
@@ -475,7 +458,6 @@
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="25" id="FeV-9I-eCg"/>
                                                         </constraints>
-                                                        <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
@@ -484,7 +466,6 @@
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="25" id="rVr-75-iKv"/>
                                                         </constraints>
-                                                        <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
@@ -527,12 +508,11 @@
             <objects>
                 <viewController id="aJC-0K-W2a" customClass="MonthFilterViewController" customModule="FirebaseProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eFY-Do-ek7">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="vu0-Kw-ClO">
-                                <rect key="frame" x="47" y="74" width="320" height="586.33333333333337"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="47" y="74" width="320" height="590.33333333333337"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Run DB App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="53w-tf-d5n">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="36"/>
@@ -549,14 +529,11 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="VEW-3h-dbJ">
+                                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" translatesAutoresizingMaskIntoConstraints="NO" id="VEW-3h-dbJ">
                                                 <rect key="frame" x="0.0" y="26.666666666666671" width="320" height="150"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="150" id="ags-iW-575"/>
                                                 </constraints>
-                                                <date key="date" timeIntervalSinceReferenceDate="583710956.75485504">
-                                                    <!--2019-07-01 21:55:56 +0000-->
-                                                </date>
                                             </datePicker>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose End Date:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uzy-0v-2gi">
                                                 <rect key="frame" x="0.0" y="181.66666666666666" width="320" height="21.666666666666657"/>
@@ -564,14 +541,11 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Kg8-Oc-Ikn">
+                                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" translatesAutoresizingMaskIntoConstraints="NO" id="Kg8-Oc-Ikn">
                                                 <rect key="frame" x="0.0" y="208.33333333333331" width="320" height="150"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="150" id="r0x-X8-E2k"/>
                                                 </constraints>
-                                                <date key="date" timeIntervalSinceReferenceDate="583710972.68280196">
-                                                    <!--2019-07-01 21:56:12 +0000-->
-                                                </date>
                                             </datePicker>
                                         </subviews>
                                     </stackView>
@@ -584,24 +558,23 @@
                                         </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RVu-9X-3Db">
-                                        <rect key="frame" x="0.0" y="500.33333333333326" width="320" height="30"/>
+                                        <rect key="frame" x="0.0" y="500.33333333333326" width="320" height="34"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Miles:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="urQ-uW-d9U">
-                                                <rect key="frame" x="0.0" y="0.0" width="86.333333333333329" height="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="86.333333333333329" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j0b-Qy-Dip">
-                                                <rect key="frame" x="86.333333333333329" y="0.0" width="233.66666666666669" height="30"/>
-                                                <nil key="textColor"/>
+                                                <rect key="frame" x="86.333333333333329" y="0.0" width="233.66666666666669" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4KK-o4-D5L">
-                                        <rect key="frame" x="0.0" y="550.33333333333337" width="320" height="36"/>
+                                        <rect key="frame" x="0.0" y="554.33333333333337" width="320" height="36"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="36" id="99s-PG-6hz"/>
                                         </constraints>
@@ -632,12 +605,11 @@
             <objects>
                 <viewController id="KqN-ke-NGD" customClass="DeleteDataViewController" customModule="FirebaseProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mNF-T5-pcA">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="150" translatesAutoresizingMaskIntoConstraints="NO" id="mFW-xZ-gab">
                                 <rect key="frame" x="47" y="79" width="320" height="784"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Run DB App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u64-2p-nvg">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="36"/>
@@ -645,11 +617,8 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Ovi-BG-3vo">
+                                    <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" translatesAutoresizingMaskIntoConstraints="NO" id="Ovi-BG-3vo">
                                         <rect key="frame" x="0.0" y="186" width="320" height="216"/>
-                                        <date key="date" timeIntervalSinceReferenceDate="583303161.11646295">
-                                            <!--2019-06-27 04:39:21 +0000-->
-                                        </date>
                                     </datePicker>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ef-dU-hdy">
                                         <rect key="frame" x="0.0" y="552" width="320" height="46"/>
@@ -683,6 +652,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="B8L-TM-UCD"/>
+        <segue reference="cLI-Xh-mpE"/>
     </inferredMetricsTieBreakers>
 </document>

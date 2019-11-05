@@ -72,15 +72,18 @@ class ReadDataViewController: UIViewController {
          
              // else, grab all the documents with the given date String
              for document in (snapshot?.documents)! {
-             
+                
+
                  if var minutes = document.data()["minutes"] as? Int,
                     let miles = document.data()["distance"] as? Double,
                     let seconds = document.data()["seconds"] as? Int
                     {
                     
-                     let paceTime = (Double(minutes) + Double(seconds / 60))
+                    let paceTime = (Double(minutes) + Double(seconds / 60))
+                        
+                    let run = Run(distance: miles, time: paceTime, year: year, month: month, day: day)
                     
-                     if minutes > 60 {
+                    if minutes > 60 {
                         let hours = minutes / 60
                         minutes = minutes % 60
                         self.timeText.text = String(hours) + ":" + String(minutes) + ":" + String(seconds)
