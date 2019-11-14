@@ -52,8 +52,15 @@ class AddDataViewController: UIViewController {
                            "minutes" : min,
                            "seconds" : sec])
             
+            let half = (Double)((min / 60) + sec) * pow((dist / 13.1), 1.06)
+            let minHalf = half / 60
+            let secHalf = half.truncatingRemainder(dividingBy: half)
+            
+            
+            let alertStr = String(format: "Your data has been added to Firebase. Based on this run, your half marathon time would be %02d and %02d seconds", minHalf, secHalf)
+            
             //Alert icon to notify that the data has been added
-            let alert = UIAlertController(title: "Confirmation", message: "Your data has been added to Firebase", preferredStyle: .alert)
+            let alert = UIAlertController(title: "Confirmation", message: alertStr, preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
             self.present(alert, animated: true)
             
